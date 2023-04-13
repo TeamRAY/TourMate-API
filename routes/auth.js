@@ -72,7 +72,7 @@ router.post("/register/:userType", addToAuthTable, async (req, res) => {
 // req.params.id
 
 //LOGIN
-
+//ASHANI
 router.post("/login", async (req, res) => {
   try {
     const user = await Auth.findOne({
